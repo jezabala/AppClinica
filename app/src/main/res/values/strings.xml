@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">clinicapp</string>
+
+    <string name="user_text_main">Bienvenido Usuario.</string>
+    <string name="user_opcion_1">Programar citas medicas.</string>
+    <string name="user_opcion_2">Historial de Citas Programadas.</string>
+    <string name="user_opcion_3">Tratamientos.</string>
+    <string name="user_opcion_4">Historias Clinicas.</string>
+
+    <string name="medico_text_main">Bienvenido Medico.</string>
+    <string name="medico_opcion_1">Pacientes.</string>
+    <string name="medico_opcion_2">Citas pendientes.</string>
+    <string name="medico_opcion_3">Tratamientos Asignados.</string>
+    <string name="medico_opcion_4">Historial de Citas Completadas.</string>
+
+
+    <string name="admin_text_main">Bienvenido Administrador.</string>
+    <string name="admin_opcion_1">Gestionar Medicos y Usuarios.</string>
+    <string name="admin_opcion_2">Reporte de Citas Completadas.</string>
+    <string name="admin_opcion_3">Historial de Citas.</string>
+    <string name="admin_opcion_4">Control de Notificaciones.</string>
+
+</resources>
