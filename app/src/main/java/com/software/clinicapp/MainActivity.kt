@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     private fun setup(){
         binding.btnLogin.setOnClickListener { goToLogin() }
         binding.btnSignIn.setOnClickListener { goToSignIn() }
+        binding.btnUserManual.setOnClickListener { goToUserManual() }
     }
 
     private fun goToLogin(){
@@ -46,6 +47,12 @@ class MainActivity : AppCompatActivity() {
     private fun goToSignIn(){
         val signInIntent = Intent(this, SignInActivity::class.java)
         startActivity(signInIntent)
+        finish()
+    }
+
+    private fun goToUserManual() {
+        val userManualIntent = Intent(this, UserManualActivity::class.java)
+        startActivity(userManualIntent)
         finish()
     }
 
